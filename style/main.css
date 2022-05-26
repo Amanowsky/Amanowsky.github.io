@@ -61,8 +61,51 @@ body
 }
 #projects
 {
+    justify-content: flex-start;
+    padding: 100px;
     background-image: url(../img/img4.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+}
+#projects h2
+{
+    font-size: 50px;
+    margin-bottom: 50px;
+}
+.projectsbox
+{
+    justify-self: center;
+    height: 60vh;
+    min-width: 60vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.project
+{
+    height: 100%;
+    width: 25%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    filter: grayscale(0.8);
+}
+#project1
+{
+    background-image: url(../img/projects/1.jpg);
+}
+#project2
+{
+    background-image: url(../img/projects/2.jpg);
+}
+#project3
+{
+    background-image: url(../img/projects/3.jpg);
+}
+#project4
+{
+    background-image: url(../img/projects/4.jpg);
 }
