@@ -179,3 +179,18 @@ body
 {
     height: 100px;
 }
+#contact
+{
+    background-image: url(../img/contact.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    filter: grayscale(0.5);
+    position: relative;
+    justify-content: flex-start;
+}
+#contact h2
+{
+    font-size: 50px;
+    margin-top: 50px;
+}
